@@ -1,0 +1,1 @@
+download the wireshark then open it choose connectiin method it can be etherner or something then open a website quit the website and open wireshark you find packets

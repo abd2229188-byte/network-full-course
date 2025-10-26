@@ -1,0 +1,20 @@
+netstat:
+by using this command we can see the connection between my device and other devices websites etc in Proto. It shows in which protocol it has been connected and my current address and also the other device address which indicate by foreign address and the statement means the current status.
+http means website...ftp means files
+
+ in foreign address, the last digit is the port number as also as in local address
+
+c:netstat -n
+it only shows the port number and address, not the device name
+
+c: netstat -a 
+It shows the all TCP and UDP port number and address, but this time the foreign address is our local address
+
+c: netstat -b
+It shows by using which programs this connection has been built
+
+c:netstat -f
+It shows the proper domain name
+
+c:netstate -bf
+it combined the -b and -f command(also call switch) and and give a combined output of those two comment so we don’t have to comment again and again

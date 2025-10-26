@@ -1,0 +1,35 @@
+tcpdump is a command-line tool used to capture and analyze network traffic that passes through your computer’s network interface.
+
+In simple words:
+👉 It “listens” to your network and shows all the data packets going in and out — like a network CCTV camera for your computer.
+
+⸻
+
+🧠 Basic idea
+	•	It captures packets (small chunks of data sent over the network).
+	•	It displays information like source IP, destination IP, protocol, ports, etc.
+	•	It’s useful for troubleshooting network problems, security analysis, and learning how networks work.
+
+⸻
+
+🧰 Common uses
+	•	See what traffic is going through your network.
+	•	Check if packets are reaching the correct destination.
+	•	Detect network attacks or strange connections.
+	•	Debug network-related applications.
+
+Example commands
+	1.	Capture all packets:
+c:sudo tcpdump
+2.
+Capture packets from a specific interface (e.g., eth0):
+c:sudo tcpdump -i eth0
+3.
+Show only traffic to or from a certain IP:
+c:sudo tcpdump host 192.168.1.10
+4.
+Show only TCP traffic on port 80 (HTTP):
+c:sudo tcpdump tcp port 80
+5.
+Save captured packets to a file:
+c:sudo tcpdump -w capture.pcap

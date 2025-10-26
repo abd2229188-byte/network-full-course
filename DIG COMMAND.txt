@@ -1,0 +1,27 @@
+so usually by using dig command we can find the DNS record then have one record which is domain name to IP address and they have other reverse record which indicate IP address to 2 main name and now they have a lot of types of records which is
+A – Maps a domain to an IPv4 address
+AAAA – Maps a domain to an IPv6 address
+CNAME – Canonical name, alias for another domain
+MX – Mail Exchange, specifies mail server for the domain
+NS – Name Server, specifies authoritative DNS servers for the domain
+PTR – Pointer record, used for reverse DNS (IP → domain)
+SOA – Start of Authority, provides authoritative info about the domain
+TXT – Text record, used for arbitrary text, SPF, DKIM, etc.
+SRV – Service record, specifies services and ports for the domain
+CAA – Certification Authority Authorization, specifies which CAs can issue certificates for the domain
+add type name in dig commad along with other belong command to find type recods
+you cant find dig command in windows automatically you have to download it but in linux macos its available if not available then install 
+c:apt-get install dnsutils
+
+TO FIND all dns records for one perticuler server"s website
+
+c:dig server websitename any
+ex::if you want to search dns record for a website in google server
+c:dig 8.8.8.8 hello.com
+
+ex:if you want to search dns record for a website
+c:dig hello.com(website name)
+
+if you want to find reverse dns record 
+c:dig -x 192.1.147.33{any ip address}
+ 

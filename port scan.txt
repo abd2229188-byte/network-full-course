@@ -1,0 +1,20 @@
+nmap is to scan the port
+
+Scan a single host (default: top 1000 TCP ports):
+c:nmap 192.168.1.10
+Output will list ports like:
+22/tcp open  ssh
+80/tcp open  http
+
+Common options & what they mean
+
+
+-p — specify ports. Examples: 
+-p 22,80,443 → scan those ports
+-p 1-65535 or -p- → scan all TCP ports
+Scan the most common ports on a host:
+c:nmap -sS -T4 192.168.1.10
+Scan specific ports (22, 80, 443) and detect services:
+c:nmap -sS -sV -p 22,80,443 192.168.1.10
+Scan all TCP ports:
+c:sudo nmap -sS -p- -T4 192.168.1.10

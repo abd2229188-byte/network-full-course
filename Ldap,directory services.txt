@@ -1,0 +1,4 @@
+first client sent a request in Ldap server then Ldap server first authenticate him then sent request to the directory service also called database then database match the request critiriya and find request resources and sent back to Ldap then Ldap sent it to client
+directory services:A directory service is a general system that stores and manages information about users, computers, and network resources.
+It’s the idea or technology category — just like “a web browser” (Chrome, Firefox, etc.).
+such as active directory its made my microsoft which provide directory services

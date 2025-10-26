@@ -1,0 +1,8 @@
+ipconfig /all
+Shows detailed info about all adapters (MAC address, DNS, DHCP, etc.)
+ipconfig /release
+Releases the current IP address (useful for DHCP)
+ipconfig /renew
+Gets a new IP address from the router
+ipconfig /flushdns
+Clears the DNS cache (fixes some internet issues)

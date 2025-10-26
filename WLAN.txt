@@ -1,0 +1,38 @@
+How WLAN Covers a Whole University or Corporation
+
+When they need Wi-Fi across a big area (like a campus, office building, or corporate headquarters), they don’t use just one router —
+they build a large WLAN system made of many connected access points (APs).
+
+⸻
+
+⚙ Here’s how it works step by step:
+	1.	Multiple Access Points (APs):
+	•	Instead of one Wi-Fi router, they install dozens or hundreds of APs in different locations — classrooms, halls, offices, etc.
+	•	Each AP covers a small area (like 20–50 meters).
+	•	Together, all APs create one big wireless network.
+	2.	Central Controller (WLC – Wireless LAN Controller):
+	•	A WLC manages all access points from one place.
+	•	It decides which AP your device should connect to as you move (so Wi-Fi stays smooth without disconnecting).
+	•	Example: when you walk across the university, your phone automatically switches from one AP to another.
+	3.	Wired Backbone:
+	•	All APs are connected by Ethernet cables to network switches and then to the main servers or internet router.
+	•	This wired backbone gives them high speed and reliability.
+	4.	Security & Authentication:
+	•	They use systems like WPA2-Enterprise or RADIUS servers so only authorized students or employees can connect.
+	5.	Network Management Software:
+	•	IT staff use software to monitor signal strength, speed, and device connections in real time.
+
+⸻
+
+💡 Example:
+
+At MIT University, there might be:
+	•	400+ Access Points
+	•	10 Wireless Controllers
+	•	Thousands of users connected to the same campus WLAN
+
+⸻
+
+🧩 In short:
+
+Big organizations use many Access Points connected by cables, all controlled by one system, to create one large Wi-Fi network (WLAN).

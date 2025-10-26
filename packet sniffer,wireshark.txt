@@ -1,0 +1,21 @@
+When computers communicate over a network (like the internet or a LAN), they send data in small chunks called packets.
+A packet sniffer listens to (or “sniffs”) those packets — like a CCTV camera for network traffic.
+
+wireshark is a app that use for packet sniffing
+
+⚙️ How It Works
+
+The sniffer puts your network interface card (NIC) into promiscuous mode (so it can read all packets, not just ones addressed to your computer).
+
+It captures packets as they travel on the network.
+
+It displays details such as:
+
+Source and destination IP addresses
+
+Protocols (TCP, UDP, HTTP, etc.)
+
+Packet size
+
+Contents (if not encrypted)
+

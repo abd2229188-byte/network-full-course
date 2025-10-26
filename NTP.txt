@@ -1,0 +1,23 @@
+What is NTP?
+
+NTP stands for Network Time Protocol.
+It’s a system that keeps all computers’ clocks the same (synchronized) over a network — like the Internet or a local network.
+
+⸻
+
+💡 Imagine this:
+
+You and your friends are doing a group exam online.
+If everyone’s clock is different, one person might start early or finish late — unfair, right?
+So you all check your watches with the same official clock.
+
+That’s exactly what NTP does for computers!
+It keeps all computers’ “watches” in sync with official time servers.
+
+NTP measures how long messages take to travel (using 4 timestamps),
+figures out the average delay,
+then corrects your clock so it matches the server’s time accurately — usually within a few milliseconds!
+
+Your computer uses these values to adjust its clock gradually —
+not by jumping suddenly, but by slowing down or speeding up the internal timer a little,
+so it gently matches the correct time.

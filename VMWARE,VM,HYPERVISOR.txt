@@ -1,0 +1,54 @@
+{VMWARE: it’s a company that create hypervisor
+HYPERVISOR: that helps to create or run many virtual  machine in one device
+VM: each VM behaves like a separate computer — it has its own CPU, memory, storage, and OS, but actually, all of that is shared from your real hardware.
+ 
+so in summary VMware  actually a company who creates virtualisation software like hypervisor then hypervisor helps to create or run many virtual machines in one computer}
+
+{HYPERVISOR: 2 TYPE
+a)i → Type 1 Hypervisor
+	•	Installed directly on the hardware (no main OS).
+	•	Used in servers and data centers.
+	•	Very powerful and secure.
+EX: VMware ESX
+
+💻 b)  Type 2 Hypervisor
+	•	Installed on top of Windows or Linux like normal software.
+	•	Used by students, developers, and home users for testing or learning.EX:VMware Workstation / VMware Player,VIRTUAL BOX
+
+VIRTUAL BOX:Type 2 Hypervisor
+	•	Installed on top of Windows or Linux like normal software.
+	•	Used by students, developers, and home users for testing or learning}
+
+{PROXMOX:
+Example:
+
+If a physical server is a big hotel:
+	•	VMs = Full apartments with their own furniture and kitchen (full OS)
+	•	Containers = Small hotel rooms that share some facilities but are separate for guests (lighter, faster)
+	•	Proxmox = The hotel manager + booking system that manages all apartments and rooms efficiently
+
+⸻
+
+🧠 Simple summary:
+
+Proxmox = A free/enterprise platform that runs virtual machines and containers on a server, with an easy-to-use web interface.}
+
+{HOSTOS AND GUESTOS:
+Host OS (Host Operating System)
+	•	This is the main operating system installed on your real physical computer.
+	•	It controls the hardware (CPU, RAM, storage, network).
+	•	The hypervisor runs on top of the Host OS (for Type 2 hypervisors).
+
+Example:
+	•	Your laptop has Windows 11 → This is your Host OS.
+	•	VirtualBox or VMware is installed on it.
+
+⸻
+
+2️⃣ Guest OS (Guest Operating System)
+	•	This is the operating system inside the virtual machine (VM).
+	•	It thinks it’s running on a real computer, but it actually uses the resources provided by the host through the hypervisor.
+
+Example:
+	•	Inside VirtualBox, you install Ubuntu Linux → This is your Guest OS.
+	•	You could also run Windows XP, Linux Mint, or anything else as another Guest OS.}

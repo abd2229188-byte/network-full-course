@@ -1,0 +1,8 @@
+LOCAL  AUTH
+It simply means: 
+User enters a username & password.
+The system checks its local database.
+If it matches → access is granted.
+
+Credentials stored on the system/server
+Logging into Windows, Linux, or a website with its own database

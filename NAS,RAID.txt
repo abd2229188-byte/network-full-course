@@ -1,0 +1,24 @@
+NAS: its a box if you set it on router or switch then if you save a file on NAS all devices inside this network can access this file
+
+RAID: its a backup drive if your drive crash then your file will be safe in raid...gamer for high gam high video editing use it...
+it helps to run a app into two drive...that boost the speed
+
+A SAN has three main parts:
+	1.	Servers (hosts) → The computers that need to use storage.
+	2.	Storage devices → Big arrays of hard drives or SSDs.
+	3.	SAN network → The connection between them (often fiber optic).
+
+💡 The servers see the SAN storage as if it’s a local hard drive, even though it’s located far away on a storage array.
+
+⸻
+
+🏢 Real-Life Example
+
+In a bank’s data center:
+	•	They have 10 servers running different applications.
+	•	Instead of each server having its own drives, they connect all servers to one SAN storage pool.
+	•	This makes it:
+	•	Easier to manage storage
+	•	Faster to access data
+	•	Safer with RAID and backups
+

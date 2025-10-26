@@ -1,0 +1,10 @@
+traceroute this is a common line that indicates that a data packets from source address to destination address in which router it has been travel it shows all router address that data packets has been through and also show time and also show steps from first step is my router to other network and also shows router address and domain name if available it also pinpoint in which point the problem has occur such as from step 4 to step 5 it take so much time so the problem occur on this step
+c:tracert google.com
+
+if in any step the stress shows request time out in there, it’s mean that the package has passed this router but has failed to reply 
+
+TTL: it indicates the maximum number of hopes that data packet can travel
+c:tracert google.com  (in top there has written that the maximum hop is 30)
+
+to customize TTL 
+c: tracert -h 4 google.com( it set the TTL limit is 4) it prevent to travel enlessly my data packets around the world to reach his destination...

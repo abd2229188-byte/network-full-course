@@ -1,0 +1,54 @@
+SSO: how it works(how the flows happen)
+
+Step-by-Step: SSO Login Flow (EASY version)
+🥇 Step 1: You go to Canva
+You open Canva.com (the Service Provider, or SP).
+🥈 Step 2: You click “Login with Google”
+Canva doesn’t check your password directly.
+Instead, it redirects you to Google — your Identity Provider (IdP).
+🥉 Step 3: Google login page appears
+You see a Google login screen (accounts.google.com).
+If you’re already logged in to Google, this step is skipped!
+🏅 Step 4: You enter your credentials (if needed)
+
+Google checks your email & password.
+🪪 Step 5: Google creates a “token” (digital proof)
+When login is successful, Google says:
+
+“Yes, this person is verified!”
+
+It then generates a secure token — kind of like a signed message.
+📨 Step 6: Google sends the token back to Canva
+
+Google sends this token back to Canva (the app you wanted to use).
+🚪 Step 7: Canva verifies it
+Canva checks the token.
+If it’s really signed by Google (trusted source), Canva accepts it.
+✅ Step 8: You’re logged in!
+You can now use Canva — without creating a separate Canva password.
+
+WHAT DOES SML DO....
+its a protocol the whole SSO process done by SML... 
+when we enter google from a app and give our credential(password,emal)if google(identity provider) said i am valid then SML creat a token and sent it to app(service provider)then app check this token and understand yes this user is valid...
+
+HOW WE LOGIN IN MANY APP BY USING SAME EMAI(same credential)
+
+How SSO Works “Again and Again”
+When you log in via SSO, like Google or Microsoft:
+
+First login: 
+You enter your credentials at the Identity Provider (IdP) (e.g., Google).
+IdP verifies you and sends a token / SAML assertion to the Service Provider (SP) (e.g., Canva).
+You’re logged in. ✅
+
+Next time you open another app using the same SSO (e.g., YouTube, Drive, Zoom): 
+The SP redirects you to the IdP again.
+You don’t type your password, because Google already knows you’re logged in — it just reuses your existing session.
+Google sends a new token to the new SP.
+You’re logged in instantly. ✅
+
+🧠 Key Idea
+
+The SSO process (token exchange / SAML/OAuth) happens each time, but you don’t have to type your credentials every time.
+The IdP remembers you via your session (usually via cookies).
+Each app gets a fresh proof/token that says “Yes, this user is verified.”

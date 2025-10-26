@@ -1,0 +1,16 @@
+NMAP: this command used to check the connection port number and especially the vulnerability in a network
+if I want to bring a whole network
+c: nmap -sP 10.7.1.0/24
+if we want to check in a network which host is using website
+c:sudo nmap-sT -p 80,443 10.7.1.0/24
+
+if you want to avoid the three step handshake in TCP just to surpass the firewall
+c:sudo nmap -sS -p 80,443 10.7.1.0/24
+if you want to know which port is open and also which operating system he’s using
+c: sudo nmap -o 10.77.1.0
+
+if you want to see the file share name of pc and everything then
+c:sudo nmap -A 10.77.1.0(this can take some time to give you output)
+
+want to find all vulnerability in a host
+c:sudo nmap --script vuln 10.7.1.226
